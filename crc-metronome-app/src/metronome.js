@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Metronome.css';
+import './Metronome.js';
 
 class Metronome extends Component
 {
