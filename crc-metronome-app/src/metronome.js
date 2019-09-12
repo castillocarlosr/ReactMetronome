@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-import './Metronome.css';
+import './Metronome.js';
 
 class Metronome extends Component
 {
     render()
     {
+        /*
         let bpm = 100;
         let playing = false;
         return
@@ -18,8 +19,8 @@ class Metronome extends Component
                 </div>
                 <button> {playing ? 'Stop' : 'Start'} </button>
             </div>
-        );
-        //return <div className = "metronome">Lets hear the beats</div>;
+        );*/
+        return <div className = "metronome">Lets hear the beats</div>;
         //<input type="range" min="30" max="240" value={bpm}></input>
     }
 }
