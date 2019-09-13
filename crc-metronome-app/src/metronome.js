@@ -14,6 +14,15 @@ class Metronome extends Component
             bpm: 120,
             beatsPerMinuteMeasure: 4
         };
+
+        //audio file added here
+        //time to record some clicks with my iphone
+    }
+
+    handleBpmChange = event => //arrow function needed!  Regular function use of 'this' binding would be lost when it gets passed to 'onChange' handler.
+    {
+        const bpm = event.target.value;
+        this.setState({bpm});
     }
 
     render()
@@ -24,7 +33,7 @@ class Metronome extends Component
             <div className="metronome">
                 <div className="bpm-slider">
                     <div>{bpm} Beats Per Minute</div>
-                    <input type="range" min="30" max="240" value={bpm} />
+                    <input type="range" min="30" max="240" value={bpm} onChange={this.handleBpmChange} />
                 </div>
                 <button>{playing ? 'Stop' : 'Start'}</button>
             </div>
@@ -33,32 +42,3 @@ class Metronome extends Component
 }
 
 export default Metronome;
-/*
-import React, {Component} from 'react';
-import './Metronome.js';
-
-class Metronome extends Component
-{
-    render()
-    {
-        
-        let bpm = 100;
-        let playing = false;
-        return
-        (
-            <div className = "metronome">
-                <div className = "bpm-slider">
-                    <div>
-                        {bpm} BPM (Beats Per Minute)
-                    </div>
-                    <input type="range" min="30" max="240" value={bpm} />
-                </div>
-                <button> {playing ? 'Stop' : 'Start'} </button>
-            </div>
-        );
-        return <div className = "metronome">Lets hear the beats</div>;
-        <input type="range" min="30" max="240" value={bpm}></input>
-    }
-}
-
-export default Metronome;*/
