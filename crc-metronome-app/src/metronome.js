@@ -3,11 +3,23 @@ import './Metronome.css';
 
 class Metronome extends Component
 {
+    constructor(props)
+    {
+        super(props);
+
+        this.state = 
+        {
+            playing: false,
+            count: 0,
+            bpm: 120,
+            beatsPerMinuteMeasure: 4
+        };
+    }
+
     render()
     {
-        let bpm = 100; //default beats per minute
-        let playing = false;
-        //return <div className = "metronome">Lets hear the beats</div>;
+        const{ playing, bpm} = this.state;
+
         return(
             <div className="metronome">
                 <div className="bpm-slider">
