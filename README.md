@@ -21,7 +21,7 @@ A good metronome built using React JS.
 <b>Expected types of Metronome</b>
          | Beat One | Beat Two
 -------- | -------- | --------
-# of tones |1 tones | 2 tones
+\# of tones |1 tones | 2 tones
 Types of beats |low beat | low/high beat
 Rythem | 3-slow, 1-high, repeat | low, repeat
 
