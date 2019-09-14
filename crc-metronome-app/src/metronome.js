@@ -20,7 +20,12 @@ class Metronome extends React.Component
         this.click1 = new Audio(click1);
         this.click2 = new Audio(click2);
         //audio file added here
-        //time to record some clicks with my iphone
+        //time to record some clicks.
+    }
+
+    startStop = () =>
+    {
+        this.click2.play();
     }
 
     handleBpmChange = event => //arrow function needed!  Regular function use of 'this' binding would be lost when it gets passed to 'onChange' handler.
@@ -29,10 +34,6 @@ class Metronome extends React.Component
         this.setState({bpm});
     }
 
-    startStop = () =>{
-        this.click1.play();
-    }
-    
     render()
     {
         const{ playing, bpm} = this.state;
