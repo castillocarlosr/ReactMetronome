@@ -23,16 +23,73 @@ class Metronome extends React.Component
         //time to record some clicks.
     }
 
+    playClick = () =>
+    {
+        const{count, beatsPerMinuteMeasure} = this.state;
+
+        if(count % beatsPerMinuteMeasure === 0)
+        {
+            this.click2.play();
+        }
+        else
+        {
+            this.click1.play();
+        }
+
+        this.setState(state => (
+            {
+                count: (state.count +1) % state.beatsPerMinuteMeasure
+            }
+            ));
+    };
+
     startStop = () =>
     {
-        this.click2.play();
-    }
+        if(this.state.playing)
+        {
+            clearInterval(this.timer);
+            this.setState({ playing: false});
+        }
+        else
+        {
+            this.timer = setInterval(
+                this.playClick,
+                (60 / this.state.bpm) * 1000
+            );
+            this.setState(
+                {
+                    count: 0,
+                    playing: true
+                },
+            );
+        }
+    };
 
     handleBpmChange = event => //arrow function needed!  Regular function use of 'this' binding would be lost when it gets passed to 'onChange' handler.
     {
         const bpm = event.target.value;
-        this.setState({bpm});
-    }
+        //this.setState({bpm});
+
+        if(this.state.playing)
+        {
+            clearInterval(this.timer);
+
+            this.timer = setInterval(
+                this.playClick,
+                (60 / bpm) * 1000
+                );
+
+            this.setState(
+                {
+                    count: 0,
+                    bpm
+                });
+        }
+        else
+        {
+            this.setState({bpm});
+        }
+    };
 
     render()
     {
