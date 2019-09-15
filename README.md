@@ -18,13 +18,15 @@ A good metronome built using React JS.
 
 ![](crc-metronome-app/src/ScreenShot.png?raw=true)
 
-<b>Expected types of Metronome</b>
-         | Beat One | Beat Two
--------- | -------- | --------
-\# of tones |1 tones | 2 tones
-Types of beats |low beat | low/high beat
-Rythem | 3-slow, 1-high, repeat | low, repeat
-
+<b>Currently one type of Metronome</b>< /br>
+<b>Expected types of Metronomes to be built in the future</b>< /br>
+< /br>
+  &nbsp;       | Beat One               | Beat Two
+--------       | --------               | --------
+\# of tones    |1 tones                 | 2 tones
+Types of beats |low beat                | low/high beat
+Rythem         | 3-slow, 1-high, repeat | low, repeat
+< /br>
 # NOTE:
 Beat one is currently up and running.  Beat two in working progress.
 
