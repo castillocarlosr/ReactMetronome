@@ -26,6 +26,12 @@ A good metronome built using React JS.
 |\# of tones    |1 tones                 | 2 tones      |<br />
 |Types of beats |low beat                | low/high beat|<br />
 |Rythem         | 3-slow, 1-high, repeat | low, repeat  |<br />
+  
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 # NOTE:
 Beat one is currently up and running.  Beat two in working progress.
