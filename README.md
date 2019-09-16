@@ -25,6 +25,11 @@ Beat One     | Beat Two
 ------------ | -------------
 1 tones      | 2 tones
 3-low, 1-high, repeat | 1-low, 1-high, repeat
+
+Beat One(Current) | Beat Two | Beat Three
+------------ | ------------- | -------------
+2 tones      | 2 tones       |      1 tone
+3-low, 1-high, repeat | 1-low, 1-high, repeat | 1-low, repeat
   
 # NOTE:
 Beat one is currently up and running.  Beat two in working progress.
