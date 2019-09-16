@@ -20,11 +20,11 @@ A good metronome built using React JS.
 
 <b>Currently one type of Metronome<b><br />
 <b>Expected types of Metronomes to be built in the future<b><br />
-| .             | Beat One               | Beat Two      |
-| ------------- |:----------------------:| -------------:|
-| # of tones    | 1 tones                | 2 tones       |
-| Types of beats| low beat               |  low/high beat|
-| Rhythm        | 3-slow, 1-high, repeat |    low, repeat|
+| .              | Beat One               | Beat Two      |
+| -------------- |:----------------------:| -------------:|
+| # of tones     | 1 tones                | 2 tones       |
+| Types of beats | low beat               | low/high beat |
+| Rhythm         | 3-slow, 1-high, repeat | low, repeat   |
 
 # NOTE:
 Beat one is currently up and running.  Beat two in working progress.
