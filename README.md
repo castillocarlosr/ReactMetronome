@@ -21,11 +21,6 @@ A good metronome built using React JS.
 <b>Currently one type of Metronome<b><br />
 <b>Expected types of Metronomes to be built in the future<b><br />
   
-Beat One     | Beat Two
------------- | -------------
-1 tones      | 2 tones
-3-low, 1-high, repeat | 1-low, 1-high, repeat
-
 Beat One(Current) | Beat Two | Beat Three
 ------------ | ------------- | -------------
 2 tones      | 2 tones       |      1 tone
