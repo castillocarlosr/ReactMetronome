@@ -20,18 +20,11 @@ A good metronome built using React JS.
 
 <b>Currently one type of Metronome<b><br />
 <b>Expected types of Metronomes to be built in the future<b><br />
-<br />
-|       .       | Beat One               | Beat Two     |<br />
-|--------       |:-----------------------| ------------:|<br />
-|\# of tones    |1 tones                 | 2 tones      |<br />
-|Types of beats |low beat                | low/high beat|<br />
-|Rythem         | 3-slow, 1-high, repeat | low, repeat  |<br />
-  
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| .             | Beat One               | Beat Two      |
+| ------------- |:----------------------:| -------------:|
+| # of tones    | 1 tones                | 2 tones       |
+| Types of beats| low beat               |  low/high beat|
+| Rhythm        | 3-slow, 1-high, repeat |    low, repeat|
 
 # NOTE:
 Beat one is currently up and running.  Beat two in working progress.
