@@ -102,7 +102,10 @@ class Metronome extends React.Component
                     <input type="range" min="30" max="240" value={bpm} onChange={this.handleBpmChange} />
                 </div>
                 <button onClick={this.startStop}>{playing ? 'Stop' : 'Start'}</button>
+                <p> &nbsp; </p>
+                <p>A Metronome built by Carlos R. Castillo built using JavaScript React and deployed on Heroku</p>
             </div>
+            
         );
     }
 }
