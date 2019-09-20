@@ -6,7 +6,7 @@ A good metronome built using React JS.
 
 * Project started on Sept 03, 2019
 * Working model on Sept 13, 2019
-* Expected deployment on Heroku Sept 13, 2019
+* Deployment on Heroku Sept 13, 2019
 
 <p>This will be a metronome app built using React.</p>
 <p>I've been working too much on C# .NET and I don't want to lose my JavaScript skills.</p>
