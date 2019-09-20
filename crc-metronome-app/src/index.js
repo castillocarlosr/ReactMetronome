@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Metronome from './Metronome.js';
+import Metronome from './Metronome';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
