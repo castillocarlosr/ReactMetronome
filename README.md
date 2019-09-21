@@ -1,12 +1,14 @@
 # ReactMetronome
 A good metronome built using React JS.
 
-
 ## Intro
 
 * Project started on Sept 03, 2019
 * Working model on Sept 13, 2019
 * Deployment on Heroku Sept 13, 2019
+
+### Try it out
+[https://react-metronome-carlos.herokuapp.com/](https://react-metronome-carlos.herokuapp.com/)
 
 <p>This will be a metronome app built using React.</p>
 <p>I've been working too much on C# .NET and I don't want to lose my JavaScript skills.</p>
