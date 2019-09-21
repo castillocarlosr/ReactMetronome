@@ -29,7 +29,8 @@ Beat One(Current) | Beat Two | Beat Three
 3-low, 1-high, repeat | 1-low, 1-high, repeat | 1-low, repeat
   
 # NOTE:
-Beat one is currently up and running.  Beat two in working progress.
+<p>Beat one is currently up and running.</p>
+<p>Beat two in working progress.  Have to make sure it they play separatly.</p>
 
 ## Author
 * [Carlos Castillo](https://github.com/castillocarlosr)
