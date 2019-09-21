@@ -77,4 +77,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 Create React App is open source software [licensed as MIT](https://github.com/facebook/create-react-app/blob/master/LICENSE).
 
 
-* README on Carlos Castillo Github
+* README on Carlos Castillo's Github
